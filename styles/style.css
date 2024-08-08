@@ -1,8 +1,52 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-*/
+nav ul {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.brand {
+    width: 450px;
+    height: 140px;
+    padding-left: 50px;
+}
+
+nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 29px;
+    display: inline-block;
+}
+
+.concert {
+    width: 1400px;
+    height: 800px;
+}
+
+li a {
+    /* Remove default link styling */
+    color: inherit;          /* Inherit color from parent (likely black text) */
+    text-decoration: none;   /* Remove underline */
+
+    /* Optional: Add hover effect for visual feedback */
+    transition: color 0.3s;  /* Smooth color transition on hover */
+}
+
+li a:hover {
+    color: #007bff;        /* Example hover color (blue) */
+}
